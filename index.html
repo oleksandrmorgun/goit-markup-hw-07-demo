@@ -21,13 +21,13 @@
     <!-- ========== HEADER ========== -->
     <header class="header">
       <div class="container-header container">
+        <a class="logo link" href="./index.html"
+          >Web<span class="logo-part">Studio</span></a
+        >
         <nav class="header-nav">
-          <a class="logo link" href="./index.html"
-            >Web<span class="logo-part">Studio</span></a
-          >
           <ul class="header-nav-list list">
             <li class="header-nav-item">
-              <a class="header-nav-link link current" href="./index.html"
+              <a class="header-nav-link link current active" href="./index.html"
                 >Studio</a
               >
             </li>
@@ -41,6 +41,11 @@
             </li>
           </ul>
         </nav>
+        <button class="mobile-menu-open-btn js-open-menu" type="button">
+          <svg class="mobile-menu-open-icon" width="32" height="32">
+            <use href="./images/icon.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="header-contact">
           <ul class="header-contact-list list">
             <li class="header-contact-item">
@@ -58,20 +63,87 @@
           </ul>
         </address>
       </div>
+      <!-- ========== MOBILE MENU ========== -->
+      <div class="mobile-menu-container js-menu-container" id="mobile-menu">
+        <button class="mobile-menu-close-btn js-close-menu" type="button">
+          <svg class="mobile-menu-close-icon" width="8" height="8">
+            <use href="./images/icon.svg#icon-close-modal"></use>
+          </svg>
+        </button>
+        <ul class="mobile-nav-list list">
+          <li class="mobile-nav-item">
+            <a
+              class="mobile-nav-link link current mobile-active"
+              href="./index.html"
+              >Studio</a
+            >
+          </li>
+          <li class="mobile-nav-item">
+            <a class="mobile-nav-link link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="mobile-nav-item">
+            <a class="mobile-nav-link link" href="">Contacts</a>
+          </li>
+        </ul>
+        <ul class="mobile-contact-list list">
+          <li class="mobile-contact-item">
+            <a class="mobile-phone-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-contact-item">
+            <a class="mobile-email-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-social-media-list list">
+          <li class="mobile-social-media-item">
+            <a class="mobile-social-media-link" href="">
+              <svg class="mobile-social-media-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-media-item">
+            <a class="mobile-social-media-link" href="">
+              <svg class="mobile-social-media-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-media-item">
+            <a class="mobile-social-media-link" href="">
+              <svg class="mobile-social-media-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-media-item">
+            <a class="mobile-social-media-link" href="">
+              <svg class="mobile-social-media-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
     <!-- ========== MAIN ========== -->
-    <main>
-      <!-- ========== SECTION ONE ========== -->
-      <section class="hero">
+    <!-- <main> -->
+    <!-- ========== SECTION ONE ========== -->
+    <!-- <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="main-btn" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section>
-      <!-- ========== SECTION TWO ========== -->
-      <section class="our-actions">
+      </section> -->
+    <!-- ========== SECTION TWO ========== -->
+    <!-- <section class="our-actions">
         <div class="container">
           <h2 hidden class="our-actions-title">Our actions</h2>
           <ul class="our-actions-list list">
@@ -125,9 +197,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- ========== SECTION THREE ========== -->
-      <section class="we-doing">
+      </section> -->
+    <!-- ========== SECTION THREE ========== -->
+    <!-- <section class="we-doing">
         <div class="container">
           <h2 class="we-doing-title">What are we doing</h2>
           <ul class="we-doing-list list">
@@ -157,9 +229,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- ========== SECTION FOUR ========== -->
-      <section class="our-team">
+      </section> -->
+    <!-- ========== SECTION FOUR ========== -->
+    <!-- <section class="our-team">
         <div class="container">
           <h2 class="our-team-title">Our Team</h2>
           <ul class="our-team-list list">
@@ -397,9 +469,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- ========== SECTION FIVE ========== -->
-      <section class="customers">
+      </section> -->
+    <!-- ========== SECTION FIVE ========== -->
+    <!-- <section class="customers">
         <div class="container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list list">
@@ -448,9 +520,9 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
     <!-- ========== FOOTER ========== -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-container container">
         <div class="footer-logo-description">
           <a class="logo-footer logo link" href="./index.html"
@@ -513,9 +585,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- ========== MODAL ========== -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -598,5 +670,8 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+  </body>
+</html> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
