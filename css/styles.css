@@ -70,7 +70,7 @@ button {
 
 /* ========== HEADER ========== */
 
-.header {
+/* .header {
   border-bottom: 1px solid var(--border-color);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -170,9 +170,37 @@ button {
 .header-contact-link:hover,
 .header-contact-link:focus {
   color: var(--accent-color);
-} 
+}  */
 
 /* MOBILE */
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 48px) {
+  .container { 
+    width: 448px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-background-color);
+  margin-right: 76px;
+}
+
+.logo-part {
+  color: var(--secondary-text-color);
+}
 
 .mobile-menu {
   position: fixed;
